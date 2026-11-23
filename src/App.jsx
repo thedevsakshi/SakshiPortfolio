@@ -6,7 +6,7 @@ function App() {
     /*'Java', 'Python', 'Spring Boot', 'Hibernate',
     'REST APIs', 'HTML', 'CSS', 'JavaScript',
     'React.js', 'MySQL', 'SQL', 'Git', 'GitHub'*/
-    'Python','HTML5','CSS3','JavaScript','Bootstrap','SCSS','Vuejs','REST APIs','Git','MySQL','SQL','Antigravity', 'Kilo Code','Cursor', 'Claude AI'
+    'Python','HTML5','CSS3','SCSS','JavaScript','Bootstrap','Vuejs','REST APIs','MySQL','Git','SQL','Antigravity', 'Kilo Code','Cursor', 'Claude AI'
   ]
 
   return (
