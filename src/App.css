@@ -214,6 +214,7 @@ body {
 
 /* PROFILE PHOTO */
 
+
 /*.hero-image {
   flex-shrink: 0;
   text-align: center;
@@ -335,12 +336,27 @@ body {
 }
 
 /* EDUCATION */
-.education-grid {
+/*.education-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 22px;
   max-width: 900px;
   margin: auto;
+} */
+
+.education-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.education-grid .info-card {
+  width: 580px;
+  max-width: 95%;
+  padding: 30px 35px;
+  box-sizing: border-box;
 }
 
 .info-card {
@@ -399,6 +415,23 @@ body {
   overflow-wrap: anywhere;
 }
 
+.contact-card a {
+  color: #bdcce0;
+  text-decoration: none;
+}
+
+.contact-card a:visited {
+  color: #bdcce0;
+}
+
+.contact-card a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-card p span:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
 .contact-card p:last-child {
   border-bottom: none;
 }

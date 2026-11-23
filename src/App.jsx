@@ -3,9 +3,10 @@ import './App.css'
 
 function App() {
   const skills = [
-    'Java', 'Python', 'Spring Boot', 'Hibernate',
+    /*'Java', 'Python', 'Spring Boot', 'Hibernate',
     'REST APIs', 'HTML', 'CSS', 'JavaScript',
-    'React.js', 'MySQL', 'SQL', 'Git', 'GitHub'
+    'React.js', 'MySQL', 'SQL', 'Git', 'GitHub'*/
+    'Python','HTML5','CSS3','JavaScript','Bootstrap','SCSS','Vuejs','REST APIs','Git','MySQL','SQL','Antigravity', 'Kilo Code','Cursor', 'Claude AI'
   ]
 
   return (
@@ -32,7 +33,7 @@ function App() {
 
           <h1>Hi, I'm <span>Sakshi Gavali</span></h1>
 
-          <h2>Java Full Stack Developer</h2>
+          <h2>Full Stack Developer</h2>
 
           <p className="intro">
 
@@ -47,15 +48,18 @@ function App() {
               View My Work
             </a>
 
-            <a href="/Sakshi-Gavali-Resume.pdf"
-              download="Sakshi-Gavali-Resume.pdf"
-              className="btn outline-btn">
-              Download Resume
-            </a>
+           <a
+           href="/SakshiGavali_FullStackDeveloper.pdf"
+           download="Sakshi_Gavali_Resume.pdf"
+           className="btn outline-btn"
+           >
+            Download Resume
+           </a>
+
           </div>
 
           <div className="social-links">
-            <a href="https://github.com/sakshigavali17-coder" target="_blank" rel="noreferrer">
+            <a href="https://github.com/thedevsakshi" target="_blank" rel="noreferrer">
               <strong>GitHub</strong>
             </a>
 
@@ -80,18 +84,10 @@ function App() {
 
         <div className="about-card">
           <p>
-            I am a Computer Science graduate with a strong interest
-            in software development. a passionate Computer Science graduate.
-            I'm an aspiring Java Full Stack Developer with a strong interest in software development.
-            I have knowledge of Java, Spring Boot, Hibernate, SQL, HTML, CSS, JavaScript, and React.js.
-            I enjoy building projects, learning new technologies, and solving problems.
-            My goal is to grow as a developer and contribute to innovative real-world projects.
+           I am a Full Stack Developer with a strong foundation in Python, JavaScript, Vue.js, HTML5, CSS3, Bootstrap, and MySQL. My technical expertise includes developing responsive web interfaces, integrating REST APIs, handling backend functionality, and managing database operations. I focus on writing structured and maintainable code while building practical web applications. I have experience working with different technologies and applying them to real-world projects. I continuously work on strengthening my development skills and exploring modern approaches to software development.s
           </p>
           <p>
-            I am a fresher who is eager to learn, improve my
-            technical skills and contribute to real-world projects.
-            I enjoy solving problems and creating user-friendly
-            applications.
+           Experienced in developing dynamic web applications, integrating APIs, and managing database operations using modern technologies. Focused on creating scalable, efficient, and user-friendly solutions while continuously improving technical expertise.
           </p>
         </div>
       </section>
@@ -108,6 +104,7 @@ function App() {
               {skill}
             </div>
           ))}
+
         </div>
       </section>
 
@@ -121,17 +118,21 @@ function App() {
 
             {/* <span className="card-year">2025</span> */}
             <h3>Bachelor of Computer Science</h3>
-            <p>Shardabai Pawar Art Commerce and Science College, Shardhanagar ,Baramati </p>
+            <p>Shardabai Pawar Art Commerce and Science College, Shardanagar ,Baramati </p>
             <p>Completed in 2025</p>
           </div>
+          
+          
+           {/*
+           <div className="info-card">
 
-          <div className="info-card">
-
-            {/* <span className="card-year">2025</span> */}
+            
             <h3>Master of Computer Science</h3>
             <p>Shardabai Pawar Art Commerce and Science College, Shardhanagar ,Baramati</p>
             <p>Pursuing</p>
-          </div>
+          </div> */}
+
+
         </div>
       </section>
 
@@ -198,9 +199,9 @@ function App() {
         <h2 className="section-title">Contact <span>Me</span></h2>
 
         <div className="contact-card">
-          <p><strong>Name:</strong> Sakshi Santosh Gavali</p>
+          <p><strong>Name:</strong> <span>Sakshi Santosh Gavali</span></p>
           <p>
-            <p><strong>Location:</strong> Pune,Maharashtra, India</p>
+            <p><strong>Location:</strong><span>Pune,Maharashtra, India</span></p>
             <p>
               <strong>Phone:</strong>{" "}
               <a href="tel:+91XXXXXXXXXX">
